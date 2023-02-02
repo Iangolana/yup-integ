@@ -185,11 +185,11 @@
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\layout": [
+    "D:\\Projets\\yup-integ\\app\\layout": [
       "static/css/_app-client_styles_globals_css.css"
     ]
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\components\\Home\\Search\\page.tsx": {
+  "D:\\Projets\\yup-integ\\components\\Home\\Search\\page.tsx": {
     "": {
       "id": "(app-client)/./components/Home/Search/page.tsx",
       "name": "",
@@ -215,7 +215,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\components\\Footer\\page.tsx": {
+  "D:\\Projets\\yup-integ\\components\\Footer\\page.tsx": {
     "": {
       "id": "(app-client)/./components/Footer/page.tsx",
       "name": "",
@@ -241,7 +241,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\components\\Header\\page.tsx": {
+  "D:\\Projets\\yup-integ\\components\\Header\\page.tsx": {
     "": {
       "id": "(app-client)/./components/Header/page.tsx",
       "name": "",
@@ -267,7 +267,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+  "D:\\Projets\\yup-integ\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -293,7 +293,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+  "D:\\Projets\\yup-integ\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -319,7 +319,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+  "D:\\Projets\\yup-integ\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -345,7 +345,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+  "D:\\Projets\\yup-integ\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -371,7 +371,7 @@
       "async": false
     }
   },
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\styles\\globals.css": {
+  "D:\\Projets\\yup-integ\\styles\\globals.css": {
     "default": {
       "id": "null",
       "name": "default",
