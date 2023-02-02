@@ -9,7 +9,7 @@ import SubscribeButton from "../SubscribeButton/page";
 const MenuHeader = () => {
   return (
     <>
-      <div className="flex flex-col space-y-4">
+      <div className="flex fixed top-0 left-0 p-4  z-20  flex-col space-y-4">
         <div className="rounded-30 z-10 bg-primary-orange flex flex-col justify-between items-center text-white px-2 py-6 w-[81px] h-[287px]">
           <LogoHeader />
           <MenuButton />
