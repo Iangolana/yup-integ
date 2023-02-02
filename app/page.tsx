@@ -1,10 +1,9 @@
+import Search from "@/components/Home/Search/page";
+
 export default function Home() {
   return (
-    <main>
-      <div className="bg-primary-orange">
-        <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
-        <p className="text-3xl font-bold underline">Kaiza e</p>
-      </div>
-    </main>
+    <div id="search" className="h-screen p-4 absolute top-0 w-full">
+      <Search />
+    </div>
   );
 }
