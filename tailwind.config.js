@@ -1,7 +1,11 @@
-const { colors } = require('tailwindcss/defaultTheme');
+const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -18,25 +22,29 @@ module.exports = {
       },
       fontFamily: {
         hurmeSans1: ["'Hurme Geometric Sans 1', sans-serif"],
-        canelaText: ["'Canela Text', sans-serif"]
+        canelaText: ["'Canela Text', sans-serif"],
       },
-      fontSize:{
-        '8': '8px',
-        '10': '10px',
+      fontSize: {
+        8: "8px",
+        10: "10px",
       },
       borderRadius: {
-        '30': '30px',
-        '49': '49px',
+        30: "30px",
+        49: "49px",
       },
       backgroundImage: {
-        'mask1': "url('../public/images/mask1.svg')",
-        'masque1': "url('../public/images/masque1.svg')",
+        mask1: "url('../public/images/mask1.svg')",
+        masque1: "url('../public/images/masque1.svg')",
+        mask2: "url('../public/images/test.svg')",
       },
       backgroundPosition: {
-        'mask1': "left bottom",
-        'masque': "right bottom",
-      }
-
+        mask1: "left bottom",
+        masque: "right bottom",
+      },
+    },
+    screens: {
+      lg: "1440px",
+      "3xl": "1600px",
     },
   },
 };
