@@ -1,5 +1,31 @@
 {
   "__ssr_module_mapping__": {
+    "(app-client)/./components/Home/Avis/page.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Home/Avis/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Home/Avis/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Home/Avis/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/Home/Search/page.tsx": {
       "": {
         "id": "(sc_client)/./components/Home/Search/page.tsx",
@@ -185,9 +211,56 @@
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
+    "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\page": [
+      "static/css/app/page.css"
+    ],
     "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\layout": [
       "static/css/_app-client_styles_globals_css.css"
     ]
+  },
+  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\slick-carousel\\slick\\slick-theme.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\slick-carousel\\slick\\slick.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\components\\Home\\Avis\\page.tsx": {
+    "": {
+      "id": "(app-client)/./components/Home/Avis/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Home/Avis/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Home/Avis/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\components\\Home\\Search\\page.tsx": {
     "": {

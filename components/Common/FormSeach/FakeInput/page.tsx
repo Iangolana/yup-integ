@@ -11,7 +11,7 @@ const FakeInput = ({ label, children }: FakeInputProps) => {
         <div className="text-8 uppercase leading-3 text-left">
             {label}
         </div>
-        <div className="mt-1 grow flex text-black uppercase text-10 leading-3 font-bold tracking-widest">{children}</div>
+        <div className="mt-1 grow flex text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">{children}</div>
       </div>
     </div>
   );

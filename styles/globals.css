@@ -173,11 +173,11 @@
     
     @font-face {
         font-family: 'Canela Text';
-        src: url('/fonts/CanelaText-Black.eot');
-        src: url('/fonts/CanelaText-Black.eot?#iefix') format('embedded-opentype'),
-            url('/fonts/CanelaText-Black.woff2') format('woff2'),
-            url('/fonts/CanelaText-Black.woff') format('woff'),
-            url('/fonts/CanelaText-Black.ttf') format('truetype');
+        src: url('/fonts/Canelatext-primary-black.eot');
+        src: url('/fonts/Canelatext-primary-black.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Canelatext-primary-black.woff2') format('woff2'),
+            url('/fonts/Canelatext-primary-black.woff') format('woff'),
+            url('/fonts/Canelatext-primary-black.ttf') format('truetype');
         font-weight: 900;
         font-style: normal;
         font-display: swap;
@@ -197,11 +197,11 @@
     
     @font-face {
         font-family: 'Canela Text';
-        src: url('/fonts/CanelaText-BlackItalic.eot');
-        src: url('/fonts/CanelaText-BlackItalic.eot?#iefix') format('embedded-opentype'),
-            url('/fonts/CanelaText-BlackItalic.woff2') format('woff2'),
-            url('/fonts/CanelaText-BlackItalic.woff') format('woff'),
-            url('/fonts/CanelaText-BlackItalic.ttf') format('truetype');
+        src: url('/fonts/Canelatext-primary-blackItalic.eot');
+        src: url('/fonts/Canelatext-primary-blackItalic.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Canelatext-primary-blackItalic.woff2') format('woff2'),
+            url('/fonts/Canelatext-primary-blackItalic.woff') format('woff'),
+            url('/fonts/Canelatext-primary-blackItalic.ttf') format('truetype');
         font-weight: 900;
         font-style: italic;
         font-display: swap;
@@ -340,7 +340,7 @@
     }
     
     body{
-        @apply font-hurmeSans1 overflow-hidden
+        @apply font-hurmeSans1 bg-primary-background
     }
     .image-wrapper > span{
         @apply w-full h-full block z-0 !important
@@ -349,5 +349,35 @@
     button:hover{
         @apply opacity-[0.75]
     }
-    
+    .titre-section{
+        @apply text-primary-black font-canelaText text-[30px] leading-[38.16px] text-center
+    }
+    .titre-section > span{
+        @apply text-primary-orange font-hurmeSans1 relative font-medium
+    }
+    .titre-section > span::before{
+        @apply w-full h-1 rounded bg-primary-orange content-[""] inline-block absolute left-0 -bottom-1
+    }
+    .btn{
+        @apply rounded-30 font-bold tracking-widest text-white text-10 uppercase px-10 py-5
+    }
+
+}
+.slick-dots{
+    position: relative !important;
+    bottom: initial !important;
+    padding: 25px 0 !important;
+}
+
+.slick-slide {
+    max-width: 433px;
+}
+.slick-dots li{
+    width: 5px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+.slick-dots li button:before {
+    color: #BFA892 !important;
 }

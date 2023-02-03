@@ -1,10 +1,10 @@
 "use client";
 
 import LogoHeader from "@/components/icons/LogoHeader";
-import AccountButton from "../AccountButton/page";
-import EmergencyButton from "../EmergencyButton/page";
-import MenuButton from "../MenuButton/page";
-import SubscribeButton from "../SubscribeButton/page";
+import AccountButton from "../Button/AccountButton/page";
+import EmergencyButton from "../Button/EmergencyButton/page";
+import MenuButton from "../Button/MenuButton/page";
+import SubscribeButton from "../Button/SubscribeButton/page";
 
 const MenuHeader = () => {
   return (
@@ -15,7 +15,7 @@ const MenuHeader = () => {
           <MenuButton />
           <AccountButton />
         </div>
-        <div className="rounded-30 bg-primary-yellow flex flex-col justify-center items-center text-black px-2 py-2 w-[81px] h-[90px]">
+        <div className="rounded-30 bg-primary-yellow flex flex-col justify-center items-center text-primary-black px-2 py-2 w-[81px] h-[90px]">
           <EmergencyButton />
         </div>
         <div className="rounded-30 bg-primary-green flex flex-col justify-center items-center text-white px-2 py-2 w-[81px] h-[163px]">

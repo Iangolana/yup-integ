@@ -1,11 +1,9 @@
 "use client";
 
 import Image from "next/legacy/image";
-import ChatButton from "../Common/ChatButton/page";
-import ForThePlanetButton from "../Common/ForThePlanetButton/page";
+import ChatButton from "../Common/Button/ChatButton/page";
+import ForThePlanetButton from "../Common/Button/ForThePlanetButton/page";
 import MenuHeader from "../Common/MenuHeader/page";
-import ScrollButton from "../Common/ScrollButton/page";
-import Mask1 from "../images/Mask1";
 
 const Header = () => {
   return (
@@ -23,14 +21,8 @@ const Header = () => {
         <div className="p-4 top-0 w-full h-full">
           <div className="fixed z-20 w-full h-full">
             <MenuHeader />
-            <div className="fixed z-20  right-4 top-0">
-              <ForThePlanetButton />
-            </div>
-            <div className="fixed z-20  right-4 bottom-4">
+            <div className="fixed z-20 right-4 bottom-4">
               <ChatButton />
-            </div>
-            <div className="fixed z-20  w-fit inset-x-0 m-auto bottom-10">
-              <ScrollButton />
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const FormSeach = () => {
           <div className="pl-10 py-[15.5px] grow flex bg-[#FAFAF5]">
             <FakeInput label="Votre destination">
               <div className="flex items-center space-x-2">
-                <div className="text-black uppercase text-10 leading-3 font-bold tracking-widest">
+                <div className="text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">
                   Départ
                 </div>
                 <Avion />
@@ -29,7 +29,7 @@ const FormSeach = () => {
             <FakeInput label="Date de départ">
               <div className="flex items-center space-x-2">
                 <Calendar />
-                <div className="text-black uppercase text-10 leading-3 font-bold tracking-widest">
+                <div className="text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">
                   -- / -- / 2022
                 </div>
               </div>
@@ -37,7 +37,7 @@ const FormSeach = () => {
             <FakeInput label="Qui voyage ?">
               <div className="flex items-center space-x-2">
                 <Traveler />
-                <div className="text-black uppercase text-10 leading-3 font-bold tracking-widest">
+                <div className="text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">
                   1 Voyageur
                 </div>
               </div>
@@ -45,7 +45,7 @@ const FormSeach = () => {
             <FakeInput label="Vos formules">
               <div className="flex items-center space-x-2">
                 <Settings />
-                <div className="text-black uppercase text-10 leading-3 font-bold tracking-widest">
+                <div className="text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">
                   2 formules
                 </div>
               </div>

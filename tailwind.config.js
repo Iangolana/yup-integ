@@ -12,7 +12,8 @@ module.exports = {
           yellow: '#F9D65A',
           pink: '#F9D7D2',
           background: '#F5F5EF',
-          black: '#363636'
+          black: '#363636',
+          marron: '#BFA892',
         },
       },
       fontFamily: {
