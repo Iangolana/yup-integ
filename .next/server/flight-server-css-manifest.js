@@ -6,11 +6,11 @@ self.__RSC_CSS_MANIFEST={
       "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\slick-carousel\\slick\\slick-theme.css"
     ]
   },
+  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\layout.tsx": [
+    "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\styles\\globals.css"
+  ],
   "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\page.tsx": [
     "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\slick-carousel\\slick\\slick.css",
     "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\node_modules\\slick-carousel\\slick\\slick-theme.css"
-  ],
-  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\layout.tsx": [
-    "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\styles\\globals.css"
   ]
 }

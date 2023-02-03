@@ -350,13 +350,19 @@
         @apply opacity-[0.75]
     }
     .titre-section{
-        @apply text-primary-black font-canelaText text-[30px] leading-[38.16px] text-center
+        @apply text-primary-black font-canelaText text-[30px] leading-[38.16px]
     }
     .titre-section > span{
         @apply text-primary-orange font-hurmeSans1 relative font-medium
     }
     .titre-section > span::before{
         @apply w-full h-1 rounded bg-primary-orange content-[""] inline-block absolute left-0 -bottom-1
+    }
+    .titre-section > span.black{
+        @apply text-primary-black
+    }
+    .titre-section > span.black::before{
+        @apply bg-primary-black
     }
     .btn{
         @apply rounded-30 font-bold tracking-widest text-white text-10 uppercase px-10 py-5

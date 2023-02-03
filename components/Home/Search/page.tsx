@@ -12,7 +12,7 @@ const Search = () => {
         <a href="#" title="homepage" className="inline-block w-fit">
           <Logo />
         </a>
-        <div className="relative grow flex flex-col justify-center max-w-[223px] mx-auto">
+        <div className="relative grow flex flex-col justify-center w-full max-w-[calc(100%-223px)] mx-auto">
           <h1 className="text-[50px] max-w-[450px] font-canelaText font-medium leading-[48px]">
             L’assurance voyage{" "}
             <span className="font-hurmeSans1 font-normal">proche de vous</span>

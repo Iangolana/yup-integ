@@ -22,7 +22,7 @@ const Avis = () => {
       <div className="logo-wrapper flex justify-center pt-6 pb-3 px-3">
         <LogoNoir />
       </div>
-      <h2 className="titre-section my-4">
+      <h2 className="titre-section my-4  text-center">
         C’est <span>vous</span> qui en parlez le mieux
       </h2>
         <div className="h-full flex flex-col justify-center relative">
