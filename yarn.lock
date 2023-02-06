@@ -1091,6 +1091,11 @@ fsevents@~2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
+fullpage.js@^4.0.16:
+  version "4.0.16"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-4.0.16.tgz#e6d58f8eec9c167ca7b3802fc3811e4507a31f6b"
+  integrity sha512-Xj/9eq8QSRvdy8LkHQOG4T4XbQXgHkmgKBEbF14/Erk3tN8AQED4WVBrEycn4Dr8jXzoTk7AWHzr9yhuQ8N1yQ==
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
