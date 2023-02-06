@@ -181,6 +181,32 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/test/page.tsx": {
+      "": {
+        "id": "(sc_client)/./app/test/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/test/page:app/test/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/test/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/test/page:app/test/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/test/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/test/page:app/test/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -388,6 +414,32 @@
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\wamp64\\www\\js\\yupwego\\yup-integ\\app\\test\\page.tsx": {
+    "": {
+      "id": "(app-client)/./app/test/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/test/page:app/test/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/test/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/test/page:app/test/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/test/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/test/page:app/test/page"
       ],
       "async": false
     }

@@ -5,9 +5,21 @@ import ScrollButton from "@/components/Common/Button/ScrollButton/page";
 import Logo from "@/components/icons/Logo";
 import ForThePlanetButton from "@/components/Common/Button/ForThePlanetButton/page";
 
+import Image from "next/legacy/image";
+
 const Search = () => {
   return (
     <>
+      <div className="absolute image-wrapper h-screen w-screen overflow-hidden">
+        <Image
+          src="/images/park.jpg"
+          width="1920"
+          height="1280"
+          objectFit="cover"
+        />
+        <div className="absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-masque1 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
+      </div>
+
       <div className="ml-[91px] pt-6 flex flex-col h-full relative z-10">
         <a href="#" title="homepage" className="inline-block w-fit">
           <Logo />
@@ -27,12 +39,12 @@ const Search = () => {
           </div>
 
           <div className="absolute z-20  right-4 -top-[4rem]">
-              <ForThePlanetButton />
-            </div>
+            <ForThePlanetButton />
+          </div>
 
           <div className="absolute z-20  w-fit inset-x-0 m-auto bottom-2">
-              <ScrollButton />
-            </div>
+            <ScrollButton />
+          </div>
         </div>
       </div>
     </>
