@@ -6,7 +6,7 @@ import Faq from "@/components/Home/Faq/page";
 export default function Home() {
   return (
     <>
-      <div id="search" className="h-screen p-4 absolute top-0 w-full">
+      <div id="search" className="h-screen p-4 absolute top-0 w-full overflow-hidden">
         <Search />
       </div>
       <div id="slider" className="h-screen p-4 w-full">

@@ -31,10 +31,12 @@ module.exports = {
       backgroundImage: {
         'mask1': "url('../public/images/mask1.svg')",
         'masque1': "url('../public/images/masque1.svg')",
+        'masqueFaq': "url('../public/images/masqueFaq.svg')",
       },
       backgroundPosition: {
         'mask1': "left bottom",
         'masque': "right bottom",
+        'masqueFaq': "center center",
       }
 
     },

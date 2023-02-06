@@ -10,7 +10,7 @@ import Image from "next/legacy/image";
 const Search = () => {
   return (
     <>
-      <div className="absolute image-wrapper h-screen w-screen overflow-hidden">
+      <div className="absolute image-wrapper h-screen w-screen">
         <Image
           src="/images/park.jpg"
           width="1920"
