@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./components/GoodHands/page.tsx": {
+      "": {
+        "id": "(sc_client)/./components/GoodHands/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/GoodHands/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/GoodHands/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/Home/Search/page.tsx": {
       "": {
         "id": "(sc_client)/./components/Home/Search/page.tsx",
@@ -188,6 +214,32 @@ self.__RSC_MANIFEST={
     "D:\\Projets\\yup-integ\\app\\layout": [
       "static/css/_app-client_styles_globals_css.css"
     ]
+  },
+  "D:\\Projets\\yup-integ\\components\\GoodHands\\page.tsx": {
+    "": {
+      "id": "(app-client)/./components/GoodHands/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/GoodHands/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/GoodHands/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "D:\\Projets\\yup-integ\\components\\Home\\Search\\page.tsx": {
     "": {
