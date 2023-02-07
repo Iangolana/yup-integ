@@ -36,7 +36,8 @@ module.exports = {
         'mask1': "url('../public/images/mask1.svg')",
         'masque1': "url('../public/images/masque1.svg')",
         'masqueFaq': "url('../public/images/masqueFaq.svg')",
-        mask2: "url('../public/images/test.svg')",
+        mask2: "url('../public/images/mask2.svg')",
+        mask2mobile: "url('../public/images/mask2mobile.svg')",
       },
       backgroundPosition: {
         'mask1': "left bottom",
