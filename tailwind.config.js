@@ -1,23 +1,26 @@
 const { colors } = require("tailwindcss/defaultTheme");
+const withMT = require("@material-tailwind/react/utils/withMT");
 
-module.exports = {
+module.exports = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         primary: {
-          orange: '#F19551',
-          orangeHover: '#b57648',
-          green: '#1E391F',
-          yellow: '#F9D65A',
-          pink: '#F9D7D2',
-          background: '#F5F5EF',
-          black: '#363636',
-          marron: '#BFA892',
+          orange: "#F19551",
+          orangeHover: "#b57648",
+          green: "#1E391F",
+          yellow: "#F9D65A",
+          pink: "#F9D7D2",
+          background: "#F5F5EF",
+          black: "#363636",
+          marron: "#BFA892",
         },
       },
       fontFamily: {
@@ -47,4 +50,4 @@ module.exports = {
 
     },
   },
-};
+});
