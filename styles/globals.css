@@ -415,6 +415,7 @@
   font-size: 10px;
   color: #363636;
   font-weight: 700;
+  display: flex;
 }
 
 .search-mobile button span {
