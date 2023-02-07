@@ -20,7 +20,7 @@ const Search = () => {
           height='1280'
           objectFit='cover'
         />
-        <div className="absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-masque1 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
+        <div className="hidden lg:block absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-masque1 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
       </div>
 
       <div className='lg:ml-[91px] lg:pt-6 flex flex-col h-full relative z-10'>
@@ -38,6 +38,33 @@ const Search = () => {
           </div>
           <div className='block lg:hidden'>
             <FormSearchMobile />
+
+            <div className='grid grid-cols-[20%_80%] grid-rows-[0px_1fr] lg:hidden mb-[39px]'>
+              <div
+                className='col-start-1 col-end-3 row-start-2 row-end-3 z-20 mt-[-38px]'
+                style={{ width: "100%", height: "329px", position: "relative" }}
+              >
+                <Image
+                  src='/images/mask1vertmobile.svg'
+                  layout='fill'
+                  objectFit='cover'
+                />
+              </div>
+              <div
+                className='col-start-2 col-end-3 row-start-1 row-end-3 10'
+                style={{ width: "100%", height: "291px", position: "relative" }}
+              >
+                <Image
+                  src='/images/mask1mobile.svg'
+                  objectFit='cover'
+                  layout='fill'
+                />
+              </div>
+            </div>
+
+            <div className='flex text-center justify-center lg:hidden uppercase'>
+              <HeaderHomeText />
+            </div>
           </div>
 
           <div className='hidden lg:block absolute z-20  right-4 -top-[4rem]'>

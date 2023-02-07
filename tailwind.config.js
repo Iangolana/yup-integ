@@ -39,6 +39,7 @@ module.exports = withMT({
         mask1: "url('../public/images/mask1.svg')",
         masque1: "url('../public/images/masque1.svg')",
         mask2: "url('../public/images/mask2.svg')",
+        mask1mobile: "url('../public/images/mask1mobile.svg')",
         mask2mobile: "url('../public/images/mask2mobile.svg')",
       },
       backgroundPosition: {
