@@ -13,7 +13,7 @@ const Calendar = () => (
       x2="1.5"
       y2="2.5"
       stroke="#F19551"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="4.5"
@@ -21,7 +21,7 @@ const Calendar = () => (
       x2="4.5"
       y2="2.5"
       stroke="#F19551"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="7.5"
@@ -29,7 +29,7 @@ const Calendar = () => (
       x2="7.5"
       y2="2.5"
       stroke="#F19551"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="10.5"
@@ -37,7 +37,7 @@ const Calendar = () => (
       x2="10.5"
       y2="2.5"
       stroke="#F19551"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <path
       d="M6.97203 11L7 5.01133L5.00562 5L5 6.20289L5.79464 6.2074L5.77229 10.9932L6.97203 11Z"

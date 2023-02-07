@@ -12,7 +12,7 @@ export default function Home() {
       <div id="slider" className="h-screen p-4 w-full">
         <Avis />
       </div>
-      <div id="faq" className="h-screen py-4 w-full">
+      <div id="faq" className="min-h-screen py-4 w-full">
         <Faq />
       </div>
     </>

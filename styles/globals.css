@@ -345,7 +345,7 @@
     .image-wrapper > span{
         @apply w-full h-full block z-0 !important
     }
-
+    a:hover,
     button:hover{
         @apply opacity-[0.75]
     }
