@@ -4,7 +4,7 @@
 	 viewBox="0 0 1920 1008.8" style="enable-background:new 0 0 1920 1008.8;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F4F4EE;}
-	.st1{fill:none;stroke:#E2EDD1;stroke-width:10.6764;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#E2EDD1;stroke-width:10.6764;strokeLinecap:round;stroke-linejoin:round;}
 </style>
 <path class="st0" d="M831.7,345.2C764.2,582.6,960.5,783.4,973,795.8c5.5,5.4,46.7,43.4,100,76c323.6,198,734.3,39.6,847-8v144.9H0
 	V0h1920v402.5c-41.5-62-196.3-276.4-476.3-336c-75.2-16-302.5-64.4-474.7,74.7C937.5,166.6,863.1,234.4,831.7,345.2z"/>

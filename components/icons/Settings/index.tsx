@@ -12,7 +12,7 @@ const Settings = () => (
       x2="11.5"
       y2="11.5"
       stroke="#363636"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="0.5"
@@ -20,7 +20,7 @@ const Settings = () => (
       x2="11.5"
       y2="6.5"
       stroke="#363636"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <line
       x1="0.5"
@@ -28,7 +28,7 @@ const Settings = () => (
       x2="11.5"
       y2="1.5"
       stroke="#363636"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <circle cx="3.5" cy="1.5" r="1.5" fill="#F19551" />
     <circle cx="8.5" cy="6.5" r="1.5" fill="#F19551" />
