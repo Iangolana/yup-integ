@@ -13,7 +13,7 @@ export default function RootLayout({
       <head />
       <body className='relative h-screen'>
         <Header />
-        <div id='fixed-footer' className='lg:hidden w-full h-screen'>
+        <div id='fixed-footer' className='lg:hidden w-full'>
           <FixedFooterMobile />
         </div>
         {children}

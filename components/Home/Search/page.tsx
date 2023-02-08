@@ -13,7 +13,7 @@ import FormSearchMobile from "@/components/Common/FormSearchMobile/page";
 const Search = () => {
   return (
     <>
-      <div className="absolute image-wrapper h-screen w-screen">
+      <div className='absolute image-wrapper h-screen w-screen'>
         <Image
           src='/images/park.jpg'
           width='1920'
@@ -27,7 +27,7 @@ const Search = () => {
         <a href='#' title='homepage' className='hidden lg:inline-block w-fit'>
           <Logo />
         </a>
-        <div className='relative grow flex flex-col justify-center w-full lg:max-w-[calc(100%-223px)] mx-auto'>
+        <div className='mt-[100px] lg:mt-0 relative grow flex flex-col justify-center w-full lg:max-w-[calc(100%-223px)] mx-auto'>
           <HeaderHomeTitle />
           <div className='hidden lg:block'>
             <HeaderHomeText />
