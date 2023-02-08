@@ -41,24 +41,30 @@ const Search = () => {
 
             <div className='grid grid-cols-[20%_80%] grid-rows-[0px_1fr] lg:hidden mb-[39px]'>
               <div
-                className='col-start-1 col-end-3 row-start-2 row-end-3 z-20 mt-[-38px]'
-                style={{ width: "100%", height: "329px", position: "relative" }}
+                className='col-start-1 col-end-3 row-start-2 row-end-3 z-20'
+                style={{
+                  width: "100vw",
+                  height: "337px",
+                  position: "relative",
+                }}
               >
                 <Image
                   src='/images/mask1vertmobile.svg'
                   layout='fill'
-                  objectFit='cover'
+                  objectFit='contain'
                 />
               </div>
               <div
-                className='col-start-2 col-end-3 row-start-1 row-end-3 10'
-                style={{ width: "100%", height: "291px", position: "relative" }}
+                className='col-start-1 col-end-3 row-start-1 row-end-3'
+                style={{ width: "100%", height: "100%", position: "relative" }}
               >
                 <Image
-                  src='/images/mask1mobile.svg'
-                  objectFit='cover'
+                  alt='image'
+                  src='/images/forest.jpg'
                   layout='fill'
+                  objectFit='cover'
                 />
+                <div className="absolute w-full h-full z-10000 top-0 right-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-mask1mobile after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
               </div>
             </div>
 

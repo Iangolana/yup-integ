@@ -7,7 +7,9 @@ const FormSearchMobile = () => {
     <form action=''>
       <div className='search-mobile'>
         <Select className='bg-[#ffffff]'>
-          <Option disabled>Où partez-vous ?</Option>
+          <Option disabled defaultValue='Où partez-vous ?'>
+            Où partez-vous ?
+          </Option>
           <Option>Lorem ipsum</Option>
           <Option>Lorem ipsum</Option>
         </Select>

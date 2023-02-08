@@ -15,6 +15,7 @@ const GoodHands = () => {
           <div className="absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-mask2mobile lg:after:bg-mask2 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
         </div>
       </div>
+
       <div className='grid-item-2 col-start-2 col-end-3 row-start-1 row-end-2 lg:col-start-4 lg:col-end-7 lg:row-start-1 lg:row-end-2 pl-0 lg:pl-[80px] lg:pt-[75px]'>
         <h2 className='text-[30px] font-[400] text-primary-black mb-[34px] text-left hidden ld:block'>
           Vous êtes entre de{" "}
