@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 import Header from "@/components/Header/page";
 import Footer from "@/components/Footer/page";
-import FixedFooterMobile from "@/components/Common/FixedFooterMobile/pages";
 
 export default function RootLayout({
   children,
@@ -9,13 +8,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <head />
-      <body className='relative h-screen'>
+      <body>
         <Header />
-        <div id='fixed-footer' className='lg:hidden w-full'>
-          <FixedFooterMobile />
-        </div>
         {children}
         <Footer />
       </body>
