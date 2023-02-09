@@ -35,12 +35,12 @@ const items = [
 const Bandeau = () => {
   return (
     <>
-      <div className=" flex justify-between items-start space-x-5">
+      <div className=" flex flex-wrap justify-center lg:justify-between items-start lg:space-x-5">
         {items.map(({id, component, text})=>{
             return(
-                <div key={id} className="uppercase flex-1 text-primary-pink flex flex-col max-w-[210px] space-y-5 justify-center items-center text-sm tracking-wider">
+                <div key={id} className="uppercase w-1/2 mb-12 last:mb-0 lg:mb-0 lg:w-auto lg:flex-1 text-primary-pink flex flex-col max-w-[210px] space-y-4 lg:space-y-5 justify-center items-center text-sm tracking-wider">
                     {component}
-                    <div className="text-center" dangerouslySetInnerHTML={{__html:text}} />
+                    <div className="text-center leading-[14px] text-[10px] lg:text-sm" dangerouslySetInnerHTML={{__html:text}} />
                 </div>
             )
         })}

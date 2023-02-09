@@ -8,10 +8,10 @@ const menuTop = [
 const MenuFooterTop = () => {
   return (
     <>
-      <div className="flex space-x-5 justify-center items-center">
-        <div className="flex px-2 space-x-5 justify-center">
+      <div className="flex flex-wrap space-y-5 lg:space-y-0 lg:space-x-5 justify-center items-center">
+        <div className="flex flex-wrap flex-col lg:flex-row px-2 space-y-5 lg:space-y-0 lg:space-x-5 justify-center">
           {menuTop.map(({ id, link, text }) => (
-            <div key={id} className="flex-1  text-center ">
+            <div key={id} className="flex-1 text-center ">
               <a
                 className="inline-block tracking-widest  uppercase font-bold text-[10px] text-white whitespace-nowrap"
                 href={link}

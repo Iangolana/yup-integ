@@ -2,7 +2,7 @@ const Newsletter = () => {
   return (
     <>
       <div className="newsletter flex flex-col space-y-4">
-        <div className="font-canelaText text-xl font-medium">
+        <div className="font-canelaText text-base lg:text-xl font-medium">
           Abonnez-vous à notre newsletter
         </div>
         <form

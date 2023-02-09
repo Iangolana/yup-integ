@@ -13,33 +13,35 @@ const Footer = () => {
   return (
     <>
       <div className="bg-primary-green text-white pt-[43px]">
-        <div className="max-w-[1290px] space-x-10 space-y-2 mx-auto rounded-30 py-5 px-10 bg-[#ffffff1a] flex flex-wrap items-center justify-between">
-          <div className="text-xl font-canelaText font-medium">
-            Votre assurance fait du bien à la planète
-          </div>
-          <div className="uppercase max-w-[236px] leading-4 text-xs">
-            lorem ipsum dolor sit amet consectur adip
-          </div>
+        <div className=" px-9 lg:px-0">
+          <div className="max-w-[1290px] space-x-0 lg:space-x-10 space-y-6 lg:space-y-2 mx-auto rounded-30 py-5 px-4 lg:px-10 bg-[#ffffff1a] flex flex-wrap items-center justify-center lg:justify-between">
+            <div className="text-base text-center lg:text-xl font-canelaText font-medium">
+              Votre assurance fait du bien à la planète
+            </div>
+            <div className="uppercase max-w-[236px] leading-4 text-center lg:text-left text-sm">
+              lorem ipsum dolor sit amet consectur adip
+            </div>
 
-          <button
-            type="button"
-            className="py-1 px-11 bg-white rounded-[100px] flex justify-center"
-          >
-            <ForThePlanet />
-          </button>
-          <button
-            type="button"
-            className="btn text-primary-black bg-primary-yellow rounded-[100px] flex justify-center"
-          >
-            nos engagements
-          </button>
+            <button
+              type="button"
+              className="py-1 px-11 bg-white rounded-[100px] flex justify-center"
+            >
+              <ForThePlanet />
+            </button>
+            <button
+              type="button"
+              className="btn text-primary-black whitespace-nowrap bg-primary-yellow rounded-[100px] flex justify-center"
+            >
+              nos engagements
+            </button>
+          </div>
         </div>
-        <div className="text-center py-11">
+        <div className="text-center py-8 lg:py-11 px-2 lg:px-0">
           <a href="#" title="Go home" className="inline-block">
             <LogoRose />
           </a>
         </div>
-        <div className="text-center">
+        <div className="text-center px-9 lg:px-0">
           <div className="max-w-[436px] mx-auto ">
             <Newsletter />
           </div>
@@ -53,23 +55,23 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-[#ffffff1a] pt-[76px] pb-[51px]">
+        <div className="bg-[#ffffff1a] pt-[76px] pb-[51px] px-9 lg:px-0">
           <div className="max-w-[1290px] mx-auto">
             <Bandeau />
           </div>
         </div>
 
-        <div className="py-11">
-            <MenuFooterTop />
+        <div className="py-11 px-9 lg:px-0">
+          <MenuFooterTop />
         </div>
 
-        <div className="py-6 bg-white grid grid-cols-3">
-            <div className="col-start-2 col-end-3">
-                <Copyright />
-            </div>
-            <div className="col-start-3">
+        <div className="py-6 bg-white flex flex-col space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 lg:grid-row-3 px-9 lg:px-0">
+          <div className="col-start-3 row-start-2">
             <MenuFooterBottom />
-            </div>
+          </div>
+          <div className="col-start-2 col-end-3 row-start-2">
+            <Copyright />
+          </div>
         </div>
       </div>
     </>

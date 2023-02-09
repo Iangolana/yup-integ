@@ -15,7 +15,7 @@ const SocialNetwork = () => {
   return (
     <>
       <div className="social-network pb-[76px]">
-        <div className="font-canelaText text-xl font-medium pb-5">
+        <div className="font-canelaText text-base lg:text-xl font-medium pb-5">
           et suivez-nous
         </div>
 
