@@ -21,10 +21,7 @@ const GoodHands = () => {
 
       <div className='grid-item-2 col-start-2 col-end-3 row-start-1 row-end-2 lg:col-start-4 lg:col-end-7 lg:row-start-1 lg:row-end-2 pl-0 lg:pl-[80px] lg:pt-[75px]'>
         <h2 className='titre-section my-4 text-left mb-[34px] lg:text-center hidden lg:block'>
-          Vous êtes entre de{" "}
-          <span className='text-primary-orange underline decoration-solid decoration-[5px]'>
-            bonnes mains
-          </span>
+          Vous êtes entre de <span>bonnes mains</span>
         </h2>
         <p className='text-[12px] lg:text-[14px] text-primary-black mb-[0px] text-center lg:text-left max-w-[auto] lg:max-w-[348px]'>
           Nous sommes des voyageurs aguerris avant d'être des assureurs. Les
