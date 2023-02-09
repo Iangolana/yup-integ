@@ -424,6 +424,7 @@
   color: #363636;
   font-weight: 700;
   padding: 22px 33px;
+  height: 54px;
 }
 
 .search-mobile label:before,
@@ -438,6 +439,11 @@
   color: #363636;
   font-weight: 700;
   display: flex;
+  padding: 22px 33px;
+}
+
+.search-mobile .place-items-center {
+  right: 33px;
 }
 
 .search-mobile button span {

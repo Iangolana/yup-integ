@@ -39,25 +39,15 @@ const Search = () => {
           <div className='block lg:hidden'>
             <FormSearchMobile />
 
-            <div className='grid grid-cols-[20%_80%] grid-rows-[0px_1fr] lg:hidden mb-[39px]'>
-              <div
-                className='col-start-1 col-end-3 row-start-2 row-end-3 z-20'
-                style={{
-                  width: "100vw",
-                  height: "337px",
-                  position: "relative",
-                }}
-              >
+            <div className='grid grid-cols-[20%_80%] grid-rows-2 lg:hidden mb-[39px] relative z-[0] mt-[-60px] auto-rows-min'>
+              <div className='col-start-1 col-end-3 row-start-1 row-end-3 z-20 mt-[-12px] w-full min-h-[330px] relative'>
                 <Image
                   src='/images/mask1vertmobile.svg'
                   layout='fill'
-                  objectFit='contain'
+                  objectFit='cover'
                 />
               </div>
-              <div
-                className='col-start-1 col-end-3 row-start-1 row-end-3'
-                style={{ width: "100%", height: "100%", position: "relative" }}
-              >
+              <div className='col-start-1 col-end-3 row-start-1 row-end-3 w-full min-h-[300px] relative'>
                 <Image
                   alt='image'
                   src='/images/forest.jpg'
@@ -70,6 +60,25 @@ const Search = () => {
 
             <div className='flex text-center justify-center lg:hidden uppercase'>
               <HeaderHomeText />
+            </div>
+            <div className='flex justify-center align-middle lg:hidden uppercase mt-[16px]'>
+              <div className='px-2'>
+                <Image
+                  alt='image'
+                  src='/images/excelent.png'
+                  width='176'
+                  height='20'
+                />
+              </div>
+
+              <div className='px-2'>
+                <Image
+                  alt='image'
+                  src='/images/forplanet.png'
+                  width='68'
+                  height='32'
+                />
+              </div>
             </div>
           </div>
 

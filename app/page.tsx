@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div
         id='search'
-        className='mb-[112px] lg:mb-0 lg:h-screen pt-0 lg:p-4 lg:absolute top-0 w-full'
+        className='mb-[75px] lg:mb-0 lg:h-screen pt-0 lg:p-4 lg:absolute top-0 w-full'
       >
         <Search />
       </div>
@@ -19,7 +19,7 @@ export default function Home() {
       <div id='slider' className='h-screen p-4 w-full'>
         <Avis />
       </div>
-      <div id="faq" className="min-h-screen py-4 w-full">
+      <div id='faq' className='min-h-screen py-4 w-full'>
         <Faq />
       </div>
     </>

@@ -4,12 +4,9 @@ import { Select, Option } from "@material-tailwind/react";
 
 const FormSearchMobile = () => {
   return (
-    <form action=''>
+    <form action='' className='relative z-[1]'>
       <div className='search-mobile'>
         <Select className='bg-[#ffffff]'>
-          <Option disabled defaultValue='Où partez-vous ?'>
-            Où partez-vous ?
-          </Option>
           <Option>Lorem ipsum</Option>
           <Option>Lorem ipsum</Option>
         </Select>
