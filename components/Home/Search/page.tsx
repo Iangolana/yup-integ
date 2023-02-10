@@ -6,11 +6,12 @@ import Logo from "@/components/icons/Logo";
 import ForThePlanetButton from "@/components/Common/Button/ForThePlanetButton/page";
 
 import Image from "next/legacy/image";
+import HeaderHomeText from "@/components/Common/HeaderHomeText/Page";
 
 const Search = () => {
   return (
     <>
-      <div className="absolute image-wrapper h-screen w-screen">
+      <div className="absolute image-wrapper h-screen w-screen overflow-hidden">
         <Image
           src="/images/park.jpg"
           width="1920"
