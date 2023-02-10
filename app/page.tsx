@@ -6,7 +6,10 @@ import Faq from "@/components/Home/Faq/page";
 export default function Home() {
   return (
     <>
-      <div id="search" className="lg:h-screen p-4 absolute top-0 w-full overflow-hidden">
+      <div
+        id='search'
+        className='mb-[75px] lg:mb-0 lg:h-screen pt-0 lg:p-4 lg:absolute top-0 w-full'
+      >
         <Search />
       </div>
       <div id="slider" className="lg:h-screen lg:py-4 w-full">

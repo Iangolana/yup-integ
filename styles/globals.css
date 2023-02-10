@@ -412,3 +412,44 @@
 .slick-dots li button:before {
     color: #BFA892 !important;
 }
+
+/* search mobile */
+.search-mobile {
+  width: 253px;
+  height: 54px;
+  margin: 25px auto 13px auto;
+}
+.search-mobile > div {
+  height: 100%;
+}
+.search-mobile label {
+  font-size: 10px;
+  color: #363636;
+  font-weight: 700;
+  padding: 22px 33px;
+  height: 54px;
+}
+
+.search-mobile label:before,
+.search-mobile label:after {
+  display: none;
+}
+.search-mobile button {
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  font-size: 10px;
+  color: #363636;
+  font-weight: 700;
+  display: flex;
+  padding: 22px 33px;
+}
+
+.search-mobile .place-items-center {
+  right: 33px;
+}
+
+.search-mobile button span {
+  display: flex;
+  position: relative;
+}
