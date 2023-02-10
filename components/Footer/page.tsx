@@ -12,9 +12,9 @@ import MenuFooterTop from "./MenuFooterTop/page";
 const Footer = () => {
   return (
     <>
-      <div className="bg-primary-green text-white pt-[43px]">
+      <div className="bg-primary-green text-white pt-[43px] section-item">
         <div className="max-w-[1290px] space-x-10 space-y-2 mx-auto rounded-30 py-5 px-10 bg-[#ffffff1a] flex flex-wrap items-center justify-between">
-          <div className="text-xl font-canelaText font-medium">
+          <div className="text-xl font-medium font-canelaText">
             Votre assurance fait du bien à la planète
           </div>
           <div className="uppercase max-w-[236px] leading-4 text-xs">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div className="pt-8 pb-3">
-            <div className="w-6 h-1 bg-white mx-auto"></div>
+            <div className="w-6 h-1 mx-auto bg-white"></div>
           </div>
 
           <div className="max-w-[436px] mx-auto ">
@@ -60,16 +60,16 @@ const Footer = () => {
         </div>
 
         <div className="py-11">
-            <MenuFooterTop />
+          <MenuFooterTop />
         </div>
 
-        <div className="py-6 bg-white grid grid-cols-3">
-            <div className="col-start-2 col-end-3">
-                <Copyright />
-            </div>
-            <div className="col-start-3">
+        <div className="grid grid-cols-3 py-6 bg-white">
+          <div className="col-start-2 col-end-3">
+            <Copyright />
+          </div>
+          <div className="col-start-3">
             <MenuFooterBottom />
-            </div>
+          </div>
         </div>
       </div>
     </>
