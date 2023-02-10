@@ -13,7 +13,32 @@ const Avis = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    centerMode: true, 
+    //centerMode: true, 
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -26,10 +51,10 @@ const Avis = () => {
         C’est <span>vous</span> qui en parlez le mieux
       </h2>
         <div className="h-full flex flex-col justify-center relative">
-          <div className="bg-[#E2F6D2] relative z-10 top-[30px] rounded-30 w-full max-w-[317px] h-[67px] mx-auto"></div>
+          <div className="bg-[#E2F6D2] relative z-10 my-6 lg:my-0 lg:top-[30px] rounded-30 w-full max-w-[317px] h-[67px] mx-auto"></div>
           <div className="w-full overflow-hidden">
             <Slider {...settings}>
-              <div className="avis px-5">
+              <div className=" px-2 lg:px-5">
                 <div className="w-full max-w-[433px] min-h-[337px] mx-auto bg-white rounded-30  p-9 flex flex-col items-center justify-center">
                   <div className="avatar pb-2 rounded-full w-[79px] h-[79px] overflow-hidden flex items-center justify-center">
                     <Image
@@ -58,7 +83,7 @@ const Avis = () => {
                   </div>
                 </div>
               </div>
-              <div className="avis px-5">
+              <div className=" px-2 lg:px-5">
                 <div className="w-full max-w-[433px] min-h-[337px] mx-auto bg-white rounded-30  p-9 flex flex-col items-center justify-center">
                   <div className="avatar pb-2 rounded-full w-[79px] h-[79px] overflow-hidden flex items-center justify-center">
                     <Image
@@ -87,7 +112,7 @@ const Avis = () => {
                   </div>
                 </div>
               </div>
-              <div className="avis px-5">
+              <div className=" px-2 lg:px-5">
                 <div className="w-full max-w-[433px] min-h-[337px] mx-auto bg-white rounded-30  p-9 flex flex-col items-center justify-center">
                   <div className="avatar pb-2 rounded-full w-[79px] h-[79px] overflow-hidden flex items-center justify-center">
                     <Image
@@ -116,7 +141,7 @@ const Avis = () => {
                   </div>
                 </div>
               </div>
-              <div className="avis px-5">
+              <div className=" px-2 lg:px-5">
                 <div className="w-full max-w-[433px] min-h-[337px] mx-auto bg-white rounded-30  p-9 flex flex-col items-center justify-center">
                   <div className="avatar pb-2 rounded-full w-[79px] h-[79px] overflow-hidden flex items-center justify-center">
                     <Image

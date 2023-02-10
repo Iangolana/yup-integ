@@ -37,6 +37,7 @@ module.exports = {
         'mask1': "left bottom",
         'masque': "right bottom",
         'masqueFaq': "center center",
+        'masqueFaq0': "0 0",
       }
 
     },

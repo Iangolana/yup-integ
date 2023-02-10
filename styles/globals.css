@@ -373,7 +373,7 @@
     @apply opacity-[0.75];
   }
   .titre-section {
-    @apply text-primary-black font-canelaText text-[30px] leading-[38.16px];
+    @apply text-primary-black font-canelaText text-xl lg:text-3xl leading-7 lg:leading-[38.16px];
   }
   .titre-section > span {
     @apply text-primary-orange font-hurmeSans1 relative font-medium;
@@ -388,8 +388,11 @@
     @apply bg-primary-black;
   }
   .btn {
-    @apply rounded-30 font-bold tracking-widest text-white text-10 uppercase px-10 py-5;
+    @apply rounded-30 font-bold tracking-widest text-white text-10 uppercase px-7 lg:px-10 py-5;
   }
+}
+*{
+    box-sizing: border-box;
 }
 .slick-dots {
   position: relative !important;

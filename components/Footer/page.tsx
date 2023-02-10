@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <div className="bg-primary-green text-white pt-[43px]">
         <div className=" px-9 lg:px-0">
-          <div className="max-w-[1290px] space-x-0 lg:space-x-10 space-y-6 lg:space-y-2 mx-auto rounded-30 py-5 px-4 lg:px-10 bg-[#ffffff1a] flex flex-wrap items-center justify-center lg:justify-between">
+          <div className="w-[98%] max-w-[1290px] space-x-0 xl:space-x-10 space-y-6 xl:space-y-2 mx-auto rounded-30 py-5 px-4 xl:px-10 bg-[#ffffff1a] flex flex-wrap flex-col xl:flex-row items-center justify-center xl:justify-between">
             <div className="text-base text-center lg:text-xl font-canelaText font-medium">
               Votre assurance fait du bien à la planète
             </div>
@@ -22,18 +22,21 @@ const Footer = () => {
               lorem ipsum dolor sit amet consectur adip
             </div>
 
-            <button
-              type="button"
-              className="py-1 px-11 bg-white rounded-[100px] flex justify-center"
-            >
-              <ForThePlanet />
-            </button>
-            <button
-              type="button"
-              className="btn text-primary-black whitespace-nowrap bg-primary-yellow rounded-[100px] flex justify-center"
-            >
-              nos engagements
-            </button>
+            <div className="flex flex-wrap w-full items-center justify-center xl:justify-between xl:flex-1 flex-col-reverse md:flex-row space-x-0 md:space-x-10 space-y-6 space-y-reverse md:space-y-0 mx-auto">
+              <button
+                type="button"
+                className="min-w-[190px] max-w-[398px] py-1 px-11 bg-white rounded-[100px] flex justify-center"
+              >
+                <ForThePlanet />
+              </button>
+              <button
+                type="button"
+                className="min-w-[190px] max-w-[398px] btn text-primary-black whitespace-nowrap bg-primary-yellow rounded-[100px] flex justify-center"
+              >
+                nos engagements
+              </button>
+            </div>
+
           </div>
         </div>
         <div className="text-center py-8 lg:py-11 px-2 lg:px-0">
@@ -56,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="bg-[#ffffff1a] pt-[76px] pb-[51px] px-9 lg:px-0">
-          <div className="max-w-[1290px] mx-auto">
+          <div className="max-w-[1290px] mx-auto px-2">
             <Bandeau />
           </div>
         </div>
