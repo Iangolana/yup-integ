@@ -4,10 +4,10 @@ import Chat from "@/components/icons/Chat";
 
 const ChatButton = () => {
   return (
-    <div className="rounded-30 bg-primary-yellow flex flex-col justify-center items-center text-primary-black px-2 py-2 w-[81px] h-[90px]">
-      <button type="button" className="logo-menu flex flex-col items-center justify-center space-y-3 font-bold">
+    <div className="rounded-30 lg:bg-primary-yellow flex flex-col justify-center items-center text-primary-black px-2 lg:py-2 w-[81px] lg:h-[90px] relative after:hidden after:absolute after:-top-[13px] lg:after:hidden after:w-[60px] after:h-[60px] after:rounded-full after:bg-primary-yellow after:z-0">
+      <button type="button" className="relative z-10 logo-menu flex flex-col items-center justify-center space-y-2 font-bold">
         <Chat />
-        <span className="uppercase font-hurmeSans1 text-[9px] leading-3 tracking-widest">Urgences</span>
+        <span className="uppercase font-hurmeSans1 text-[9px] leading-3 tracking-widest">Chat</span>
       </button>
     </div>
   );

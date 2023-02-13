@@ -68,8 +68,8 @@ const Footer = () => {
           <MenuFooterTop />
         </div>
 
-        <div className="py-6 bg-white flex flex-col space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 lg:grid-row-3 px-9 lg:px-0">
-          <div className="col-start-3 row-start-2">
+        <div className="pt:6 pb-[7rem] lg:py-6 bg-white flex flex-col space-y-6 2xl:space-y-0 2xl:grid 2xl:grid-cols-3 2xl:grid-row-3 px-9 2xl:px-0">
+          <div className="col-start-3 row-start-2 pt-6 py-3 lg:py-0">
             <MenuFooterBottom />
           </div>
           <div className="col-start-2 col-end-3 row-start-2">

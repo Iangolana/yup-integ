@@ -11,7 +11,7 @@ const Header = () => {
         <div className="p-4 top-0 w-full h-full">
           <div className="z-20 w-full h-full left-0 top-0">
             <MenuHeader />
-            <div className="fixed z-20 right-4 bottom-4">
+            <div className="hidden lg:block fixed z-20 right-4 bottom-4">
               <ChatButton />
             </div>
           </div>
