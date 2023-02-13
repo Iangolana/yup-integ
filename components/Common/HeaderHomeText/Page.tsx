@@ -6,7 +6,7 @@ const HeaderHomeText = () => {
       Moderne. Personnalisée. Au juste prix. Sans limite.
       <br />
       <span className='font-[700] lg:font-[400]'>
-        Il était temps qu’on vienne vous assurer !
+        Il était temps qu’on vienne vous assurer !
       </span>
     </div>
   );
