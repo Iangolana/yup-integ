@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div
         id='search'
-        className='mb-[75px] lg:mb-0 lg:h-screen pt-0 lg:p-4 lg:absolute top-0 w-full'
+        className='mb-[75px] xl:mb-0 xl:h-screen pt-0 xl:p-4 xl:absolute top-0 w-full'
       >
         <Search />
       </div>

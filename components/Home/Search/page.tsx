@@ -13,34 +13,34 @@ import FormSearchMobile from "@/components/Common/FormSearchMobile/page";
 const Search = () => {
   return (
     <>
-      <div className='hidden lg:block absolute top-0 left-0 image-wrapper h-screen w-full'>
+      <div className='hidden xl:block absolute top-0 left-0 image-wrapper h-screen w-full'>
         <Image
           src='/images/park.jpg'
           width='1920'
           height='1280'
           objectFit='cover'
         />
-        <div className="hidden lg:block absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-masque1 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
+        <div className="hidden xl:block absolute w-full h-full z-9 top-0 left-0 mask-wrapper after:content-[' '] after:inline-block after:w-full after:h-full after:absolute after:bg-masque1 after:bg-position-mask1 after:bg-no-repeat after:bg-cover"></div>
       </div>
 
-      <div className='lg:ml-[91px] lg:pt-6 flex flex-col h-full relative z-10'>
-        <a href='#' title='homepage' className='hidden lg:inline-block w-fit'>
+      <div className='xl:ml-[91px] xl:pt-6 flex flex-col h-full relative z-10'>
+        <a href='#' title='homepage' className='hidden xl:inline-block w-fit'>
           <Logo />
         </a>
-        <div className='mt-[100px] lg:mt-0 relative grow flex flex-col justify-center w-full lg:max-w-[calc(100%-223px)] mx-auto'>
+        <div className='mt-[100px] xl:mt-0 relative grow flex flex-col justify-center w-full xl:max-w-[calc(100%-223px)] mx-auto'>
           <HeaderHomeTitle />
-          <div className='hidden lg:block'>
+          <div className='hidden xl:block'>
             <HeaderHomeText />
           </div>
 
-          <div className='hidden lg:block form-search-wrapper'>
+          <div className='hidden xl:block form-search-wrapper'>
             <FormSeach />
           </div>
-          <div className='block lg:hidden'>
+          <div className='block xl:hidden'>
             <FormSearchMobile />
 
-            <div className='grid grid-cols-[20%_80%] grid-rows-2 lg:hidden mb-[39px] relative z-[0] mt-[-60px] auto-rows-min'>
-              <div className='col-start-1 col-end-3 row-start-1 row-end-3 z-20 mt-[-12px] w-full min-h-[330px] relative'>
+            <div className='grid grid-cols-[20%_80%] grid-rows-2 xl:hidden mb-[39px] relative z-[0] mt-[-60px] auto-rows-min'>
+              <div className='col-start-1 col-end-3 row-start-1 row-end-3 z-20 mt-[-12px] w-full min-h-[330px] md:min-h-[700px] lg:min-h[900px] relative'>
                 <Image
                   src='/images/mask1vertmobile.svg'
                   layout='fill'
@@ -58,10 +58,10 @@ const Search = () => {
               </div>
             </div>
 
-            <div className='flex text-center justify-center lg:hidden uppercase'>
+            <div className='flex text-center justify-center xl:hidden uppercase'>
               <HeaderHomeText />
             </div>
-            <div className='flex justify-center align-middle lg:hidden uppercase mt-[16px]'>
+            <div className='flex justify-center align-middle xl:hidden uppercase mt-[16px]'>
               <div className='px-2'>
                 <Image
                   alt='image'
@@ -82,7 +82,7 @@ const Search = () => {
             </div>
           </div>
 
-          <div className='hidden lg:block absolute z-20  right-4 -top-[4rem]'>
+          <div className='hidden xl:block absolute z-20  right-4 -top-[4rem]'>
             <ForThePlanetButton />
           </div>
 
