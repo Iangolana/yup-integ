@@ -32,7 +32,7 @@ const GoodHands = () => {
         </p>
       </div>
       <div className='grid-item-3 col-start-1 col-end-3 row-start-2 row-end-3 xl:col-start-3 xl:col-end-5 xl:row-start-2 xl:row-end-4 relative pb-0'>
-        <div className='z-1 relative w-[100%]'>
+        <div className='z-1 relative  sm:w-[40%]  xl:w-[100%]'>
           <div className='absolute z-10 top-[-15px] left-[60px] xl:top-[30px] xl:left-0'>
             <Image
               src='/images/vitesse.svg'
@@ -49,7 +49,7 @@ const GoodHands = () => {
               alt='rapide'
             />
           </div>
-          <div className='absolute left-[150px] !top-[205px] xl:!top-[150px] xl:left-[250px]'>
+          <div className='absolute right-[20px] !top-[205px] xl:!top-[150px] xl:left-[250px] xl:right-[auto]'>
             <h3 className='text-[21px] font-[600] text-primary-orange mb-[14px] mt-[0px]'>
               Rapide
             </h3>
@@ -78,7 +78,7 @@ const GoodHands = () => {
               alt='Sur mesure'
             />
           </div>
-          <div className='absolute top-[220px] left-[75px] xl:!top-[250px] xl:left-[100px]'>
+          <div className='absolute top-[220px] right-[20px] xl:!top-[250px] xl:left-[100px] xl:right-[auto]'>
             <h3 className='text-[21px] font-[600] text-primary-orange mb-[14px] mt-[0px]'>
               Sur mesure
             </h3>
