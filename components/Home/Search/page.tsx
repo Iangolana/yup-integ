@@ -33,7 +33,7 @@ const Search = () => {
             <HeaderHomeText />
           </div>
 
-          <div className='hidden xl:block form-search-wrapper'>
+          <div className='xl:block form-search-wrapper'>
             <FormSeach />
           </div>
           <div className='block xl:hidden'>

@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 
 const GoodHands = () => {
   return (
-    <section className='grid gap-y-[35px] xl:gap-y-[0px] grid-cols-[10%_auto_10%] xl:grid-cols-[18%_16%_16%_16%_16%_18%] grid-rows-[auto_auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto_auto_auto]'>
+    <section className='overflow-hidden grid gap-y-[35px] xl:gap-y-[0px] grid-cols-[10%_auto_10%] xl:grid-cols-[18%_16%_16%_16%_16%_18%] grid-rows-[auto_auto_auto_auto_auto] xl:grid-rows-[auto_auto_auto_auto_auto]'>
       <div className='grid-item-1 col-start-2 col-end-6 row-start-5 row-end-6 xl:col-start-1 xl:col-end-4 xl:row-start-1 xl:row-end-6 mt-[50px] xl:mt-0'>
         <div className='w-full h-full xl:h-[100%] relative'>
           <div className='w-full h-[305px] md:h-[700px] lg:h-[820px] xl:h-[311px]'>
