@@ -15,8 +15,8 @@ const FormSeach = () => {
           <div className="text-xs leading-4 text-center py-3">Parlez-nous de vous</div>
         </div>
         <div className="flex flex-col lg:flex-row rounded-28 lg:rounded-49 pt-6 lg:pt-0 border border-primary-orange overflow-hidden">
-          <div className="pb-3 xl:pb-0 px-9 max-w-full lg:pl-10 lg:py-[15.5px] grow flex flex-wrap bg-transparent lg:bg-[#FAFAF5]">
-            <div className="w-full lg:w-auto">
+          <div className="pb-3 px-9 max-w-full lg:pl-10 lg:py-[15.5px] grow flex flex-wrap bg-transparent lg:bg-[#FAFAF5]">
+            <div className="w-full lg:w-auto relative  sm:last:after:bg-transparent after:absolute after:bottom-0 sm:after:bottom-[inherit] after:left-0 sm:after:left-[inherit] sm:after:right-0 sm:after:top-0 after:h-[1px] sm:after:h-full after:w-full sm:after:w-[1px] after:bg-[#BFA892] after:content-[`' '`] after:inline-block">
               <FakeInput label="Votre destination">
                 <div className="flex flex-wrap items-center space-x-2 space-y-2">
                   <div className="text-primary-black uppercase text-10 leading-3 font-bold tracking-widest">
