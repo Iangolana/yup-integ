@@ -1,7 +1,7 @@
 <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 1440 821.5" style="enable-background:new 0 0 1440 821.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{clip-path:url(#SVGID_00000134952805673795372080000017151297585828448922_);}
-	.st1{fill:none;stroke:#FAFAF5;stroke-width:5;strokeLinecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#FAFAF5;strokeWidth:5;strokeLinecap:round;strokeLinejoin:round;}
 </style>
 <g>
 	<defs>
@@ -28,7 +28,7 @@
       <path
         d="M1623.2 668.585C1623.2 668.585 1331.06 934.287 875.178 972.445C511.51 975.71 335.728 762.544 367.338 563.744C403.882 332.877 706.06 262.393 876.767 530.468C1105.94 890.223 709.144 1538.13 -33.3919 884.558"
         stroke="#FAFAF5"
-        stroke-width="5"
+        strokeWidth="5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
