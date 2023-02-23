@@ -18,7 +18,8 @@ module.exports = {
           background: "#F5F5EF",
           black: "#363636",
           marron: "#BFA892",
-          vertClaire: "rgba(226,246,210,.4)",
+          greenLight: "rgba(226,246,210,.4)",
+          marronLight: "rgba(241,149,81,.4) ",
         },
       },
       fontFamily: {

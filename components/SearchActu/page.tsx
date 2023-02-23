@@ -5,7 +5,7 @@ import React from "react";
 import ArrowDown from "../icons/ArrowDown";
 
 const SearchActu = () => {
-  const [showFilters, setShowFilters] = React.useState(false);
+  const [showFilters, setShowFilters] = React.useState(true);
   const onClickFilterButton = () => setShowFilters((current) => !current);
   return (
     <>
@@ -39,7 +39,7 @@ const SearchActu = () => {
           <div className='flex flex-wrap mb-[18px]'>
             <label
               htmlFor='check-type-1'
-              className='flex items-center custom-checkbox bg-primary-vertClaire rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
+              className='flex items-center custom-checkbox bg-primary-greenLight rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
             >
               <input
                 type='checkbox'
@@ -55,7 +55,7 @@ const SearchActu = () => {
 
             <label
               htmlFor='check-type-2'
-              className='flex items-center custom-checkbox bg-primary-vertClaire rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
+              className='flex items-center custom-checkbox bg-primary-greenLight rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
             >
               <input
                 type='checkbox'
@@ -71,7 +71,7 @@ const SearchActu = () => {
 
             <label
               htmlFor='check-type-3'
-              className='flex items-center custom-checkbox bg-primary-vertClaire rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
+              className='flex items-center custom-checkbox bg-primary-greenLight rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
             >
               <input
                 type='checkbox'
@@ -87,7 +87,7 @@ const SearchActu = () => {
 
             <label
               htmlFor='check-type-4'
-              className='flex items-center custom-checkbox bg-primary-vertClaire rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
+              className='flex items-center custom-checkbox bg-primary-greenLight rounded-[7px] py-[6px] px-[9px] leading-[1.2] mr-[20px] mb-[10px]'
             >
               <input
                 type='checkbox'
@@ -101,21 +101,58 @@ const SearchActu = () => {
               </span>
             </label>
           </div>
-          <div className='md:grid grid-cols-3'>
+          <div className='md:grid grid-cols-3 gap-x-[55px]'>
             <div>
               <h3 className='text-[10px] text-primary-black font-[700] uppercase mb-[14px] '>
                 PAR ZONE Géographique :{" "}
               </h3>
+              <div className='bg-[#FAFAF5] rounded-[100px] pr-[15px]'>
+                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
+                  <option selected disabled>
+                    Selectionnez
+                  </option>
+                  <option>Oceani</option>
+                  <option>Lorem</option>
+                </select>
+              </div>
+              <div className='mt-[14px]'>
+                <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-[#F9D7D2] text-[10px] color-primary-black w-auto p-[6px]'>
+                  OCéANIE
+                </div>
+              </div>
             </div>
             <div>
               <h3 className='text-[10px] text-primary-black font-[700] uppercase mb-[14px] '>
                 par pays :
               </h3>
+              <div className='bg-[#FAFAF5] rounded-[100px] pr-[15px]'>
+                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
+                  <option selected disabled>
+                    Selectionnez
+                  </option>
+                  <option>NOUVELLE-zélande</option>
+                  <option>australie</option>
+                </select>
+              </div>
+              <div className='mt-[14px]'>
+                <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-primary-marronLight text-[10px] color-primary-black w-auto p-[6px] mb-[14px]'>
+                  NOUVELLE-zélande
+                </div>
+                <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-primary-marronLight text-[10px] color-primary-black w-auto p-[6px] mb-[14px]'>
+                  australie
+                </div>
+              </div>
             </div>
             <div>
               <h3 className='text-[10px] text-primary-black font-[700] uppercase mb-[14px] '>
-                PAR DATE :{" "}
+                PAR DATE :
               </h3>
+              <div className='bg-[#FAFAF5] rounded-[100px]'>
+                <input
+                  type='date'
+                  className='bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[25px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'
+                />
+              </div>
             </div>
           </div>
         </form>
