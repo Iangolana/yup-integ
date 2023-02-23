@@ -7,7 +7,7 @@ import MenuHeader from "../Common/MenuHeader/page";
 const Header = () => {
   return (
     <>
-      <div className='header w-full xl:h-screen overflow-hidden'>
+      <div className='header w-full overflow-hidden'>
         <div className='p-4 top-0 w-full h-full'>
           <div className='z-20 w-full h-full left-0 top-0'>
             <MenuHeader />

@@ -107,7 +107,7 @@ const SearchActu = () => {
                 PAR ZONE Géographique :{" "}
               </h3>
               <div className='bg-[#FAFAF5] rounded-[100px] pr-[15px]'>
-                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
+                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[14px] xl:py-[20px] pl-[17px] xl:pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
                   <option selected disabled>
                     Selectionnez
                   </option>
@@ -115,8 +115,8 @@ const SearchActu = () => {
                   <option>Lorem</option>
                 </select>
               </div>
-              <div className='mt-[14px]'>
-                <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-[#F9D7D2] text-[10px] color-primary-black w-auto p-[6px]'>
+              <div className='mt-[14px] inline-flex flex-col'>
+                <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-[#F9D7D2] text-[10px] color-primary-black w-auto p-[6px] mb-[14px]'>
                   OCéANIE
                 </div>
               </div>
@@ -126,7 +126,7 @@ const SearchActu = () => {
                 par pays :
               </h3>
               <div className='bg-[#FAFAF5] rounded-[100px] pr-[15px]'>
-                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
+                <select className='w-[100%] bg-[#FAFAF5] rounded-[100px] py-[14px] xl:py-[20px] pl-[17px] xl:pl-[25px] pr-[0px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'>
                   <option selected disabled>
                     Selectionnez
                   </option>
@@ -134,7 +134,7 @@ const SearchActu = () => {
                   <option>australie</option>
                 </select>
               </div>
-              <div className='mt-[14px]'>
+              <div className='mt-[14px] inline-flex flex-col'>
                 <div className='inline-flex items-center justify-center uppercase h-[22px] rounded-[7px] bg-primary-marronLight text-[10px] color-primary-black w-auto p-[6px] mb-[14px]'>
                   NOUVELLE-zélande
                 </div>
@@ -150,7 +150,7 @@ const SearchActu = () => {
               <div className='bg-[#FAFAF5] rounded-[100px]'>
                 <input
                   type='date'
-                  className='bg-[#FAFAF5] rounded-[100px] py-[20px] pl-[25px] pr-[25px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase'
+                  className='bg-[#FAFAF5] rounded-[100px] py-[14px] xl:py-[20px] pl-[17px] xl:pl-[25px] pr-[17px] xl:pr-[25px] focus-visible:outline-none text-[12px] text-[#1E391F] font-[700] uppercase w-[100%]'
                 />
               </div>
             </div>
